@@ -38,7 +38,7 @@ new Vue({
         special_attack: function(){
     
                 // var point =Math.ceil(Math.random() * 25)
-                var point =Math.ceil(Math.random() * this.special_attack_)
+                var point =Math.ceil(Math.random() * this.special_attack_multiple)
                 this.monster_health -= point;
                  this.add_to_log({turn: "P", text: this.log_text.special_attack + point})
                 this.monster_attack();
