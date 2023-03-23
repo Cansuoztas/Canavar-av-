@@ -10,10 +10,10 @@ new Vue({
         heal_up_multiple:20,
         monster_attack_multiple:15,
         log_text:{
-            attack:"OYUNCU ATAĞI:",
-            special_attack: "ÖZEL OYUNCU ATAĞI",
-            monster_attack: 'CANAVAR ATAĞI',
-            heal_up:'İLK YARDIM',
+            attack:"OYUNCU ATAĞI: ",
+            special_attack: "ÖZEL OYUNCU ATAĞI: ",
+            monster_attack: 'CANAVAR ATAĞI: ',
+            heal_up:'İLK YARDIM: ',
             give_up:'OYUNCU PES ETTİ!!!'
         },
 
